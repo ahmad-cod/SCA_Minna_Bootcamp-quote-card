@@ -47,13 +47,14 @@ a img {
 span {
     color: #B70569;
     font-size: 13px;
+    margin-top: -15px;
 }
 
 a {
     text-decoration: none;
 }
 a img {
-    margin-top: 0;
+    margin-top: 1rem;
 }
 .attribution {
     text-align: center;
@@ -72,6 +73,7 @@ a img {
     }
     a img {
         margin-top: 0;
+        margin-bottom: 5px;
     }
 }
 
