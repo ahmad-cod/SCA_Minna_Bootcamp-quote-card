@@ -64,8 +64,8 @@ a img {
     .container {
         margin-left: 10%;
         margin-right: 10%;
-        margin-top: 20%;
-        height: 450px;
+        margin-top: 15%;
+        height: 500px;
         flex-flow: column wrap;
     }
     img {
@@ -73,7 +73,7 @@ a img {
     }
     a img {
         margin-top: 0;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
     }
 }
 
