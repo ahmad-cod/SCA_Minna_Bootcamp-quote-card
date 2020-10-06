@@ -1,10 +1,10 @@
 body {
-    background-color: #F798cc;
-    color: #000000;
+    background-color: #F3C0DD;
+    color: #333;
     display: flex;
-    justify-content: center;
     align-items: center;
-    flex-flow: column wrap;
+    justify-content: center;
+    flex-flow: column;
     box-sizing: border-box;
 }
 
@@ -25,6 +25,7 @@ body {
     padding: 10px;
     flex-grow: 2;
     height: 100px;
+    margin-bottom: 10px;
 }
 h3 {
     color: #B70569;
@@ -37,8 +38,8 @@ img {
     border-radius: 15px 15px 0 0;
 }
 a img {
-    width: 50px;
-    height: 50px;
+    width: 47px;
+    height: 47px;
     border-radius: 50%;
 }
 
@@ -51,8 +52,27 @@ span {
 a {
     text-decoration: none;
 }
+a img {
+    margin-top: 0;
+}
 .attribution {
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 20%;
+        height: 450px;
+        flex-flow: column wrap;
+    }
+    img {
+        max-width: 100%;
+    }
+    a img {
+        margin-top: 0;
+    }
 }
 
 @media all and (min-width: 445px) {
@@ -84,15 +104,3 @@ a {
     }
 }
 
-@media screen and (max-width: 445px) {
-    .container {
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 20%;
-        height: 450px;
-        flex-flow: column wrap;
-    }
-    img {
-        width: 300px;
-    }
-}
