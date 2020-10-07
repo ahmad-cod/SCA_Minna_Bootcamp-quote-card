@@ -65,7 +65,7 @@ a img {
         margin-left: 10%;
         margin-right: 10%;
         margin-top: 10%;
-        height: 550px;
+        height: 480px;
         flex-flow: column;
     }
     img {
@@ -95,8 +95,6 @@ a img {
     .content{
         padding: 15px;
         line-height: 2rem;
-        /* margin: 10px;
-        margin-left: 20px; */
         font-size: 19px;
         width: 50%;
     }
