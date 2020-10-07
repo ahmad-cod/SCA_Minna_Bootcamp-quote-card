@@ -64,16 +64,15 @@ a img {
     .container {
         margin-left: 10%;
         margin-right: 10%;
-        margin-top: 15%;
-        height: 500px;
-        flex-flow: column wrap;
+        margin-top: 10%;
+        height: 550px;
+        flex-flow: column;
     }
     img {
         max-width: 100%;
     }
     a img {
-        margin-top: 0;
-        margin-bottom: 10px;
+      
     }
 }
 
