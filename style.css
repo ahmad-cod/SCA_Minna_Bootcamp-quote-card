@@ -71,9 +71,6 @@ a img {
     img {
         max-width: 100%;
     }
-    a img {
-      
-    }
 }
 
 @media all and (min-width: 445px) {
